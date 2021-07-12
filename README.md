@@ -9,3 +9,8 @@ How to use?  <br/>
 +Click "Connect" button <br/>
 -Put channel id to send messages <br/>
 +Now type someething in textbox and click send <br/>
+
+
+Image of app<br/>
+
+![alt text](https://i.imgur.com/ivuhX3v.png)
