@@ -66,15 +66,9 @@ namespace WindowsFormsApp1
         {
             Invoke((Action)delegate
             {
-            string texttomsg = msg.Content.ToString();
-             messages_tb.AppendText($"[{msg.Author.ToString()}]: " + texttomsg + "\r\n");
+             messages_tb.AppendText($"[{msg.Author.ToString()}]: " + msg.Content.ToString() + "\r\n");
             });
             return null;
-        }
-
-        private void textBox1_TextChanged_2(object sender, EventArgs e)
-        {
-
         }
     }
 }
